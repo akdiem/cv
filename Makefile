@@ -12,4 +12,4 @@ $(TEX).pdf: $(TEX).tex
 
 clean:
 	# remove all files except for .tex, .bib and the Makefile
-	find -type f | grep -v 'tex\|bib\|Makefile' | xargs rm
+	find -type f | grep -v 'tex\|bib\|Makefile\|git' | xargs rm
